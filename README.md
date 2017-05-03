@@ -18,14 +18,13 @@ Modify the previous tab component to load the content via js request
 ### Requirements:
 * duplicate the previous tab component and modify it so that only the initially active
 content is contained
-* on tab activation load the needed content via javascript request (you can use
-static content files, we are only interested in the client side)
+* on tab activation load the needed content via javascript request
 * request content only the first time a tab gets activated
 
 # Approach
 
 I have decided to use `JSON` format to store data and because of CORS mechaninsm I have hosted it on MyJSON.com: https://api.myjson.com/bins/13vg19
-This have been tested and working on all main browsers: 
+This has been tested and working on all main browsers: 
 
 * IE9+
 * Chrome
